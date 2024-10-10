@@ -1,9 +1,9 @@
 ---
-name: Feature request
+name: "[FEAT]"
 about: Suggest an idea for this project
 title: ''
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: EricSemCDev
 
 ---
 
