@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <input type="text" id="number">
+    <button onclick="ext()">CLICA AI</button><br>
+    <label id="ext"></label>
 </body>
+<script>
+    function ext(){
+        var numberInput = document.getElementById("number").value;
+
+        const unidades = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove'];
+
+        if (numberInput < 10){
+            var numExtenso = unidades[numberInput];
+        }
+
+
+        var label = document.getElementById("ext")
+        label.innerHTML = numExtenso;
+        
+        console.log(numExtenso);
+    }
+</script>
 </html>
